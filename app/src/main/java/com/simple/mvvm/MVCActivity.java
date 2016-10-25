@@ -17,11 +17,11 @@ import java.util.List;
  * 普通模式
  * Created by zhangzeyan on 16/10/18.
  */
-public class NormalActivity extends Activity{
+public class MVCActivity extends Activity{
 
     private List<UserBean> userBeanList;
     private ListView listView;
-    private NormalAdapter adapter;
+    private MVCAdapter adapter;
     private ProgressBar mLoading;
 
     @Override
@@ -34,7 +34,7 @@ public class NormalActivity extends Activity{
 
         userBeanList = new ArrayList<>();
 
-        adapter = new NormalAdapter(NormalActivity.this, userBeanList);
+        adapter = new MVCAdapter(MVCActivity.this, userBeanList);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

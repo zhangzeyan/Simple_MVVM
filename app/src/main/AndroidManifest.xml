@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MVVMActivity" />
-        <activity android:name=".NormalActivity" />
+        <activity android:name=".MVCActivity" />
     </application>
 
 </manifest>

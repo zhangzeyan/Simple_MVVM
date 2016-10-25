@@ -16,12 +16,12 @@ import java.util.List;
  * Created by zhangzeyan on 16/10/18.
  */
 
-public class NormalAdapter extends BaseAdapter {
+public class MVCAdapter extends BaseAdapter {
 
     private Context context;
     private List<UserBean> userBeanList;
 
-    public NormalAdapter(Context context, List<UserBean> userBeanList) {
+    public MVCAdapter(Context context, List<UserBean> userBeanList) {
         this.context = context;
         this.userBeanList = userBeanList;
     }

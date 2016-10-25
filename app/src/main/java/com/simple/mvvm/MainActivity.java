@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void normalClick(View view) {
-        Intent intent = new Intent(MainActivity.this,NormalActivity.class);
+        Intent intent = new Intent(MainActivity.this,MVCActivity.class);
         startActivity(intent);
     }
 

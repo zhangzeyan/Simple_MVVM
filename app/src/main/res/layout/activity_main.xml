@@ -14,7 +14,7 @@
     <TextView
         android:onClick="normalClick"
         style="@style/click_style"
-        android:text="普通模式" />
+        android:text="mvc模式" />
 
     <TextView
         android:onClick="mvvmClick"
